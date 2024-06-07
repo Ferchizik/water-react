@@ -1,0 +1,48 @@
+/* Navmenu.module.css */
+
+.nav_menu {
+  /* background-color: #333; */
+  padding: 10px 0;
+  justify-self: start;
+  padding-right: 20%;
+  
+}
+
+.nav_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.nav_menu li {
+  margin: 0 10px;
+  
+}
+
+.nav_menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  padding: 5px 15px; /* Добавляем внутренний отступ для создания пространства внутри овала */
+  border: 3px solid #fff; /* Белая обводка */
+  border-radius: 25px; /* Закругляем углы для создания овала */
+}
+
+.nav_menu a:hover {
+  color: #ffcc00;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.logo {
+  margin-right: auto;
+}

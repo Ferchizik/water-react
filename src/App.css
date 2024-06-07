@@ -1,0 +1,303 @@
+body {
+  font-family: "Roboto", "Arial", fantasy-serif;
+  font-style: italic;
+  /* text-transform: capitalize; */
+  margin: 0;
+  padding: 0;
+  background-color: #A2D2FF;
+  background-image: url("../5.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+header {
+  /* background-color: #CDB4DB; */
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  font-family: "Roboto", "Arial", fantasy-serif;
+  font-weight: 799;
+
+}
+
+h1 {
+  /* background-color: rgb(20, 65, 63); */
+  /* background-color: rgb(180, 219, 217); */
+  /* background-color: #CDB4DB; */
+  margin-top: auto;
+  padding-top: 1%;
+  border-radius: 15px;
+  font-family: "Roboto", "Arial", fantasy-serif;
+  font-weight: 650;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  /* background-color: #CDB4DB; */
+  /* color: black; */
+  margin-top: auto;
+  padding-top: 1%;
+  border-radius: 15px;
+  font-family: "Roboto", "Arial", fantasy-serif;
+  padding-bottom: 15px;
+}
+
+.logo {
+  margin-right: 20px; /* Расстояние между логотипом и заголовком */
+  align-items: center;
+  align-self: center; /* Выравниваем логотип по центру по вертикали */
+  border-radius: 15px;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  background-color: #BDE0FE;
+  height: 10%;
+  padding: 1%;
+  color: white;
+  border-radius: 15px;
+  justify-content:first baseline; /* Центрируем содержимое по горизонтали */
+}
+
+.nav_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav_menu ul li {
+  margin-right: 10px;
+}
+
+.nav_menu ul li:last-child {
+  margin-right: 0;
+}
+
+.nav_menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333; /* Черный цвет для ссылок */
+  margin-bottom: 10px;
+}
+
+.nav_panel_left {
+  justify-content: center;
+  width: 20%;
+  padding: 20px;
+  height: 100;
+  margin: 0.5%;
+  background-color: #F1FAEE;
+  border-radius: 15px;
+  margin: 0;
+  /* background-image: url("../4.jpg");
+  opacity:0.8;
+  background-position: 1000%;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.container {
+  display: flex;
+  color: #2A9D8F;
+}
+
+.nav_panel_right {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  height: 100;
+  color: #45a049;
+  margin: 0;
+  padding-left: 20px;
+  border-left-width: 23px;
+  margin-left: 20px;
+  background-color: #F1FAEE;
+  /* background-color: black; */
+  /* opacity: 0.8; */
+  border-radius: 15px;
+
+}
+
+.main {
+  display: flex;
+  margin-left: 1%;
+  padding: 0%;
+  box-sizing: border-box;
+  width: 79%; /* Уменьшил ширину, чтобы было видно меню */
+  height: 900px;
+}
+
+#main {
+  display: flex;
+  margin-left: 1%;
+  padding: 0%;
+  box-sizing: border-box;
+  width: 79%; /* Уменьшил ширину, чтобы было видно меню */
+  height: 900px;
+  width: 98.5%;
+  height: 146%;
+}
+
+section {
+  float: left;
+  width: 79%; /* Уменьшил ширину, чтобы было видно меню */
+  padding: 20px;
+}
+
+
+.footer {
+    background-color: #33333327;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    height: 1.5%;
+    width: 100%;
+}
+
+.mesto {
+  
+  justify-content: center;
+  width: 20%;
+  padding: 20px;
+  height: 100;
+  margin: 0.5%;
+  background-color: rgb(176, 1, 73);
+  border-radius: 15px;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  overflow: visible; /* Или другое значение, например, auto */
+}
+
+
+
+/* Добавляем стили для выравнивания формы */
+#add-route-form {
+  margin-top: 20px;
+  }
+
+  #new-route-form label {
+  display: block;
+  margin-bottom: 5px;
+  }
+
+  #new-route-form input,
+  #new-route-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  }
+
+  #new-route-form button {
+  /* background-color: #4CAF50; */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  }
+
+  #new-route-form button:hover {
+  background-color: #45a049;
+  }
+
+
+
+  #add-ship-form {
+    margin-top: 20px;
+    }
+  
+    #new-ship-form label {
+    display: block;
+    margin-bottom: 5px;
+    }
+  
+    #new-ship-form input,
+    #new-ship-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    }
+  
+    #new-ship-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    }
+  
+    #new-ship-form button:hover {
+    background-color: #45a049;
+    }
+
+
+/* Стили для изображения в пользовательском балуне */
+.custom-balloon img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Стили для блока текста в пользовательском балуне */
+.custom-balloon-description {
+  background-color: white; /* Белый фон */
+  padding: 50px; /* Отступы вокруг содержимого балуна */
+  border-radius: 5px; /* Закругленные углы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+/* Стили для блока текста в пользовательском балуне */
+.custom-balloon-description {
+  background-color: white; /* Белый фон */
+  padding: 50px; /* Отступы вокруг содержимого балуна */
+  border-radius: 5px; /* Закругленные углы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+}
+.balloon-content {
+background-color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+.map-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; /* Скругление краев карты */
+  overflow: hidden; /* Скрывает все, что выходит за границы обертки */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени */
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.container_admin {
+  display: flex;
+  background-color: #F1FAEE;
+  color: #2A9D8F;
+}
+
+.download{
+  margin-bottom: 10px;
+}

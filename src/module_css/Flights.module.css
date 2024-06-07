@@ -1,0 +1,121 @@
+/* Flights.module.css */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  color: black;
+}
+
+.table th {
+  padding: 12px 15px;
+  background-color: rgb(250, 250, 250);
+  color: black;
+}
+
+.table td {
+  padding: 12px 15px;
+}
+
+.table_blur td:nth-child(odd) {
+  background: #ebf3f9;
+}
+
+.table thead tr {
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #dddddd;
+}
+
+.table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.tag.nice {
+  background-color: #52c41a;
+}
+
+.tag.developer {
+  background-color: #1890ff;
+}
+
+.tag.loser {
+  background-color: #ff4d4f;
+}
+
+.tag.cool {
+  background-color: #13c2c2;
+}
+
+.tag.teacher {
+  background-color: #722ed1;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+input[type="date"],
+select,
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

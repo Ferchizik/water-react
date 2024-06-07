@@ -1,0 +1,103 @@
+/* Navmenu.module.css */
+
+.nav_menu {
+  /* background-color: #333; */
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали, если необходимо */
+  flex-wrap: wrap;
+}
+
+.nav_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_menu li {
+  margin: 0 10px;
+  
+}
+
+.nav_menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  padding: 5px 15px; /* Добавляем внутренний отступ для создания пространства внутри овала */
+  border: 3px solid #fff; /* Белая обводка */
+  border-radius: 25px; /* Закругляем углы для создания овала */
+  white-space: nowrap; /* Запрет на перенос текста внутри кнопки */
+}
+
+.nav_menu a:hover {
+  color: #ffcc00;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+
+@media (max-width: 1340px) {
+  .nav_menu {
+    padding-right: 0; /* Изменение отступов для маленьких экранов */
+  }
+
+  .nav_menu li {
+    margin: 5px 0; /* Уменьшение отступов между элементами */
+  }
+
+  .nav_menu a {
+    padding: 8px 16px; /* Уменьшение отступов внутри кнопок */
+    font-size: 14px; /* Уменьшение размера шрифта */
+  }
+}
+
+@media (max-width: 1140px) {
+  .nav_menu {
+    padding-right: 0; /* Изменение отступов для маленьких экранов */
+  }
+
+  .nav_menu li {
+    margin: 5px 0; /* Уменьшение отступов между элементами */
+  }
+
+  .nav_menu a {
+    padding: 6px 14px; /* Уменьшение отступов внутри кнопок */
+    font-size: 12px; /* Уменьшение размера шрифта */
+  }
+}
+
+@media (max-width: 940px) {
+  .nav_menu a {
+    padding: 4px 10px; /* Еще большее уменьшение отступов внутри кнопок */
+    font-size: 10px; /* Еще большее уменьшение размера шрифта */
+  }
+
+  .nav_menu ul {
+    flex-direction: column; /* Вертикальное расположение для маленьких экранов */
+  }
+}
+
+.nav_menu a:hover {
+  color: #ffcc00;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.logo {
+  margin-right: auto;
+}
